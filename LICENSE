@@ -1,24 +1,198 @@
-This is free and unencumbered software released into the public domain.
+Quantropi Academic Use License
+Version 1.0
+Copyright (c) 2026 Quantropi Inc. All rights reserved.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Patent Notice: The D-HPPK KEM technology, including the methods
+and processes disclosed in the accompanying manuscript, is
+protected by one or more patents and/or patent applications
+owned by Quantropi Inc. See Section 3 for patent licensing
+terms.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+This license governs the use of the D-HPPK KEM reference
+implementation (the "Software") accompanying the manuscript
+"D-HPPK KEM: A Defactorized Homomorphic Polynomial Public Key
+Encapsulation Mechanism for IND-CCA2 Security" (Manuscript ID:
+jcp-4541440).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+1. GRANT OF LICENSE (COPYRIGHT)
 
-For more information, please refer to <https://unlicense.org>
+Subject to the terms and conditions of this license, Quantropi
+Inc. ("Quantropi") grants you a non-exclusive, non-transferable,
+royalty-free, worldwide license to:
+
+   (a) use, reproduce, and modify the Software solely for
+       academic research, academic teaching, and personal
+       non-commercial study;
+
+   (b) publish, in academic papers, theses, and course
+       materials, results obtained through the use of the
+       Software, provided that the Software itself is not
+       redistributed for commercial purposes;
+
+   (c) redistribute unmodified or modified copies of the
+       Software to other academic researchers or academic
+       institutions, provided that:
+
+         (i)   this license is included in full with every copy;
+         (ii)  the recipients are bound by the same academic-use
+               restrictions; and
+         (iii) no fee is charged for the redistribution beyond
+               the cost of the medium, if any.
+
+2. COMMERCIAL USE RESTRICTION
+
+Any use of the Software for commercial purposes is expressly
+prohibited without a separate written license from Quantropi.
+Commercial purposes include, but are not limited to:
+
+   (a) incorporation of the Software, in whole or in part, into
+       a product or service offered for sale, license, or
+       commercial distribution;
+
+   (b) use of the Software in the operation of a business,
+       including internal research and development whose
+       results are not published in the academic literature;
+
+   (c) use of the Software to provide a service to third
+       parties, whether paid or unpaid, where the service is
+       part of a commercial offering;
+
+   (d) redistribution of the Software as part of a commercial
+       software package, hardware product, or commercial
+       development kit.
+
+To request a commercial license, contact Quantropi Inc. at:
+
+    Quantropi Inc.
+    1545 Carling Avenue, Suite 620
+    Ottawa, ON K1Z 8P9, Canada
+    Attn: Licensing
+
+or by email to the contact address listed in the accompanying
+manuscript.
+
+3. PATENT LICENSE
+
+The D-HPPK KEM technology is protected by one or more patents
+and/or patent applications owned by Quantropi Inc. and/or its
+affiliates (the "Patents"). A non-exhaustive list of the Patents
+is provided in Section 3.1 below.
+
+3.1 PATENT NOTICE
+
+    [PATENT NUMBER(S) AND/OR APPLICATION NUMBER(S), JURISDICTION(S),
+    AND FILING DATE(S). The list below is a template and must be
+    filled in with the actual patent details before publication of
+    this license. Example entries:
+
+     - US Patent No. XX,XXX,XXX, "TITLE", filed [DATE],
+       granted [DATE].
+
+     - PCT Application No. PCT/XX/XXXXXX, "TITLE", filed [DATE].
+
+     - Canadian Patent Application No. X,XXX,XXX, "TITLE",
+       filed [DATE].
+
+    If a listed application has not yet granted, it is identified
+    as an "application" in the entry above. If any patent or
+    application is added to or removed from this list, the list
+    shall be updated and the version number in the header of this
+    license incremented.]
+
+3.2 GRANT FOR ACADEMIC USE
+
+Subject to the terms of this license, Quantropi grants you a
+non-exclusive, non-transferable, royalty-free, worldwide patent
+license under the Patents solely to:
+
+   (a) make, use, and modify the Software for academic research,
+       academic teaching, and personal non-commercial study; and
+
+   (b) practice the methods and processes disclosed in the
+       manuscript, insofar as they are covered by the Patents,
+       for the purposes in (a).
+
+This patent grant is limited to academic and non-commercial
+purposes and does not extend to any commercial activity, whether
+by you or by any third party to whom you redistribute the
+Software or the methods.
+
+3.3 COMMERCIAL PATENT LICENSE REQUIRED
+
+Any use of the Patents for a commercial purpose requires a
+separate written patent license from Quantropi. Commercial
+purposes are defined in Section 2 of this license. To request a
+commercial patent license, use the contact information in
+Section 2.
+
+3.4 NO PATENT RIGHTS BEYOND THE GRANT
+
+No patent rights are granted by implication, estoppel, or
+otherwise, except as expressly stated in Section 3.2. In
+particular, this license does not grant any rights to the
+Patents for any purpose not specified in Section 3.2.
+
+4. NO TRADEMARK LICENSE
+
+This license does not grant any rights to use the name
+"Quantropi," "D-HPPK," or any associated logo, trademark, or
+trade name, except for reasonable and customary academic
+attribution of the manuscript and its authors.
+
+5. ATTRIBUTION
+
+Any publication that uses the Software, in whole or in part,
+shall cite the manuscript:
+
+    R. Kuang, "D-HPPK KEM: A Defactorized Homomorphic Polynomial
+    Public Key Encapsulation Mechanism for IND-CCA2 Security,"
+    Journal of Cybersecurity and Privacy (MDPI), 2026.
+
+6. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT. QUANTROPI DOES NOT WARRANT THAT THE SOFTWARE
+WILL MEET YOUR REQUIREMENTS OR THAT ITS OPERATION WILL BE
+UNINTERRUPTED OR ERROR-FREE.
+
+The Software is a feasibility implementation, not a
+production-grade cryptographic library. It is not constant-time
+and should not be deployed in any environment where side-channel
+resistance is required. Use of the Software in any
+security-critical application is at your sole risk.
+
+7. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL QUANTROPI, ITS AFFILIATES, OR ITS LICENSORS
+BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+8. TERMINATION
+
+This license terminates automatically if you breach any of its
+terms. Upon termination, you must cease all use of the Software
+and destroy all copies in your possession or control. The
+patent grant in Section 3.2 terminates on the same terms, and
+upon termination you must also cease all practice of the
+methods and processes covered by the Patents.
+
+9. GOVERNING LAW
+
+This license shall be governed by and construed in accordance
+with the laws of the Province of Ontario, Canada, without regard
+to its conflict-of-laws principles. Any dispute arising under
+this license shall be subject to the exclusive jurisdiction of
+the courts located in Ottawa, Ontario, Canada.
+
+10. ENTIRE AGREEMENT
+
+This license constitutes the entire agreement between you and
+Quantropi concerning the Software and supersedes all prior or
+contemporaneous communications, whether oral or written.
+
+For questions about this license, contact Quantropi Inc. at the
+address in Section 2.
